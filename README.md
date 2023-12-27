@@ -15,8 +15,8 @@ This is a project to detect the bicycle lanes on roads using a deep learning mod
 
 ### Resources
 
-Python Version : 3
-Model : YOLOv5
+Python Version: 3.1.1
+Model: YOLOv5
 
 ## Dataset
 
