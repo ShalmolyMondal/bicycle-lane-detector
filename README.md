@@ -1,8 +1,7 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Resources](#resources)
-  - [Installation](#installation)
+  - [Resources](#resources) 
 - [Dataset](#dataset)
   - [Data Source](#data-origin)
   - [Data Preparation](#data-preparation)
@@ -51,7 +50,7 @@ Our model successfully identified three key classes (BikeLaneMarker, Island, and
 
 ### Post Processing
 
-To enhance the visual representation of the detected bicycle lanes, a Python script (get_img_from_labels.py) was used to generate images from the text labels in YOLO format. Additionally, we utilized [drawBB] (https://github.com/baasitsharief/drawBB) to convert the annotation to a bounding box to visualize exactly what is detected as a bicycle lane.
+To enhance the visual representation of the detected bicycle lanes, a Python script (get_img_from_labels.py) was used to generate images from the text labels in YOLO format. Additionally, we utilized [drawBB](https://github.com/baasitsharief/drawBB) to convert the annotation to a bounding box to visualize exactly what is detected as a bicycle lane.
 
 ## Results and Insights
 
@@ -68,8 +67,8 @@ After training the YOLOv5 model on the annotated dataset and evaluating its perf
 
 Below are visualizations showcasing the model's predictions on sample images from the test dataset which shows a confidence above 0.75
 
-![Bicycle Lane Detection](results/bicycle_lane_detection_result1.png)
-![Bicycle Lane Detection](results/bicycle_lane_detection_result2.png)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result1.jpg)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result2.jpg)
 
 ### Real-world Applications
 
