@@ -1,8 +1,7 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Resources](#resources)
-  - [Installation](#installation)
+  - [Resources](#resources) 
 - [Dataset](#dataset)
   - [Data Source](#data-origin)
   - [Data Preparation](#data-preparation)
