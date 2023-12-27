@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Example IoU values for different detections
-iou_values = [0.8, 0.7, 0.6, 0.5, 0.4]
+iou_values = [0.8, 0.7, 0.6, 0.5, 0.4, 0.85]
 
 # Plot a histogram of IoU values
 plt.figure(figsize=(8, 6))
