@@ -63,6 +63,8 @@ After training the YOLOv5 model on the annotated dataset and evaluating its perf
 - **Average Precision (AP):** 0.90
 - **Intersection over Union (IoU):** 0.85
 
+![IoU](results/IoU.png)
+
 ### Visualization
 
 Below are visualizations showcasing the model's predictions on sample images from the test dataset which shows a confidence above 0.75
