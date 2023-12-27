@@ -1,5 +1,3 @@
-
-
 ## Table of Contents
 
 - [About the Project](#about-the-project)
@@ -16,13 +14,12 @@
 
 This is a project to detect the bicycle lanes on roads using a deep learning model.
 
-
 ### Resources
 
 Python Version : 3
 Model : YOLOv5
 
-## Dataset 
+## Dataset
 
 ### Data Source
 
@@ -37,14 +34,15 @@ The dataset was annotated using Roboflow and split using train test split to ens
 For training the deep learning model, the following configuration was employed
 
 ```
-#Example 
+#Example
 $ python train.py --img 640 --batch 16 --epochs 3 --data coco128.yaml --weights yolov5s.pt
 ```
+
 ## Evaluation and Inference
 
 To test the effectiveness of the trained model, an inference was conducted on a dataset comprising 6000 images.
 
-``` bash
+```bash
 #Example command for model evaluation
 python detect.py --source data/bicycle-lane-brimbank-data-6k --weights bicycle_lane_marker.pt --conf 0.75 --name bicycle_lane_det_brimbank_6k_images --save-txt
 ```
@@ -70,8 +68,8 @@ After training the YOLOv5 model on the annotated dataset and evaluating its perf
 
 Below are visualizations showcasing the model's predictions on sample images from the test dataset which shows a confidence above 0.75
 
-![Bicycle Lane Detection](images/bicycle_lane_detection_result1.png)
-![Bicycle Lane Detection](images/bicycle_lane_detection_result2.png)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result1.png)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result2.png)
 
 ### Real-world Applications
 
@@ -80,4 +78,3 @@ The accurate identification of bicycle lanes has significant implications for ur
 - Improving cyclist safety by identifying and delineating dedicated bike lanes.
 - Assisting city planners in optimizing road infrastructure for sustainable transportation.
 - Enhancing the efficiency of traffic management systems by recognizing road markings.
-
