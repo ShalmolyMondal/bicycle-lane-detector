@@ -50,7 +50,7 @@ Our model successfully identified three key classes (BikeLaneMarker, Island, and
 
 ### Post Processing
 
-To enhance the visual representation of the detected bicycle lanes, a Python script (get_img_from_labels.py) was used to generate images from the text labels in YOLO format. Additionally, we utilized [drawBB] (https://github.com/baasitsharief/drawBB) to convert the annotation to a bounding box to visualize exactly what is detected as a bicycle lane.
+To enhance the visual representation of the detected bicycle lanes, a Python script (get_img_from_labels.py) was used to generate images from the text labels in YOLO format. Additionally, we utilized [drawBB](https://github.com/baasitsharief/drawBB) to convert the annotation to a bounding box to visualize exactly what is detected as a bicycle lane.
 
 ## Results and Insights
 
