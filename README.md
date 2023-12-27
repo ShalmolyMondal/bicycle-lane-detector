@@ -67,8 +67,8 @@ After training the YOLOv5 model on the annotated dataset and evaluating its perf
 
 Below are visualizations showcasing the model's predictions on sample images from the test dataset which shows a confidence above 0.75
 
-![Bicycle Lane Detection](results/bicycle_lane_detection_result1.png)
-![Bicycle Lane Detection](results/bicycle_lane_detection_result2.png)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result1.jpg)
+![Bicycle Lane Detection](results/bicycle_lane_detection_result2.jpg)
 
 ### Real-world Applications
 
