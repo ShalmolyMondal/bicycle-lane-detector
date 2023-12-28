@@ -3,7 +3,7 @@
 - [About the Project](#about-the-project)
   - [Resources](#resources) 
 - [Dataset](#dataset)
-  - [Data Source](#data-origin)
+  - [Data Source](#data-source)
   - [Data Preparation](#data-preparation)
 - [Model Training](#training)
 - [Model Evaluation](#model-evaluation)
